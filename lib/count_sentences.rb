@@ -16,7 +16,7 @@ class String
     self.end_with?("!")
   end
 
-  def count_sentences(str)
+  def count_sentences(
     words = str.split
     words.count
   end
