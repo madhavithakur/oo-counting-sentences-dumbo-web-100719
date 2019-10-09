@@ -2,7 +2,7 @@ require 'pry'
 
 class String
   
-  attr_accessor
+  #attr_accessor
 
   def sentence?
     self.end_with?(".")
